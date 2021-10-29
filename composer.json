@@ -1,0 +1,22 @@
+{
+    "name": "chenyansheng/php-ssh-sock",
+    "description": "The faster php SSH execute commands",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Chenyansheng\\PhpSshSock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yansheng Chen",
+            "email": "amberroom88@gmail.com"
+        }
+    ],
+    "require": {
+	"php": "^8.0|^7.4",
+	"symfony/process": "^4.3 || ^5.0"
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
